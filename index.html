@@ -1,69 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML & CSS Foundations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <title>Frontend Mentor | Blog preview card</title>
+<body>
+  <div class="background">
+    <div class="card">
+      <img src="assets/images/illustration-article.svg" alt="Card Graphic" class="card-image" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
-    />
-    <!-- connect the normalize.css file -->
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="bg"></div>
-    <main class="container">
-      <div class="card">
-        <img
-          class="card__img"
-          src="./assets/images/illustration-article.svg"
-          alt=""
-        />
-        <div class="card__content">
-          <div class="card__tag">Learning</div>
-
-          <div class="card__date">Published 21 Dec 2023</div>
-
-          <a class="card__title" href="#">
-            <h2>HTML & CSS foundations</h2>
-          </a>
-
-          <p class="card__descr">
-            These languages are the backbone of every website, defining
-            structure, content, and presentation.
-          </p>
-        </div>
-
+      <div class="card-content">
+        <span class="label">Learning</span>
+        <p class="date">Published 21 Dec 2023</p>
+        <h2 class="title">HTML & CSS foundations</h2>
+        <p class="description">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
         <div class="author">
-          <img
-            class="author__avatar"
-            src="./assets/images/image-avatar.webp"
-            alt=""
-          />
-          <span class="author__name">Greg Hooper</span>
+          <img src="assets/images/image-avatar.webp" alt="Author" class="author-img" />
+          <span class="author-name">Greg Hooper</span>
         </div>
       </div>
-    </main>
+    </div>
+  </div>
+</body>
 
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://github.com/bulhakovolexii">Olexii Bulhakov</a>.
-    </footer>
-  </body>
 </html>
