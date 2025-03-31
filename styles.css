@@ -19,7 +19,7 @@ body, html {
 }
 
 .card {
-    max-width: 384px;
+    width:300;
     background-color: white;
     border-radius: 12px;
     box-shadow: 4px 4px 0px #000;
